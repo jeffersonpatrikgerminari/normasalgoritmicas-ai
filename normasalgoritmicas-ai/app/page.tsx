@@ -173,7 +173,23 @@ operativo do Direito.
     problem: {
       title: "The scientific problem",
       text:
-        "Traditional legal dogmatics lacks sufficient resolution to explain how technical infrastructures, digital flows and automations condition institutional practice and reshape the justice system’s operation.",
+        `
+Traditional legal dogmatics describes norms, decisions, and procedures primarily
+through statutory text and judicial acts. However, this approach shows limited
+explanatory capacity when confronted with complex digital systems.
+
+In electronic procedure, technical infrastructures, automated workflows, and
+algorithmic classifications cease to function merely as auxiliary tools and
+instead begin to organize institutional operation itself: they modulate time,
+priority, visibility, and the circulation of procedural acts.
+
+This normative layer does not appear as statutory law or judicial decision, yet
+it produces concrete effects on jurisdiction, court administration, and the
+governance of the justice system. The scientific problem addressed here is to
+understand how these normativities emerge, how they operate, and how they may be
+diagnosed and governed, without disrupting procedural guarantees or the
+operative closure of law.
+`,
       cards: [
         {
           title: "Traditional Dogmatics",
