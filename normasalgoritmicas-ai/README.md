@@ -27,4 +27,5 @@ Site institucional (Next.js + Tailwind) com versão PT/EN.
 
 <!-- force vercel redeploy -->
 
-Force redeploy after fixing page.tsx
+<!-- Force redeploy after fixing page.tsx -->
+
