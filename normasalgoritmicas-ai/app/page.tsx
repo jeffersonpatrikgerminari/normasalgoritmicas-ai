@@ -32,13 +32,8 @@ const content = {
     problem: {
       title: "O problema científico",
       text:
-        "A dogmática jurídica tradicional descreve normas, decisões e procedimentos, mas apresenta baixa resolução explicativa quando confrontada com sistemas digitais complexos.
-
-No processo eletrônico, infraestruturas técnicas, fluxos automatizados e classificações algorítmicas não apenas executam comandos humanos, mas passam a organizar o próprio funcionamento institucional, modulando tempo, prioridade, visibilidade e controle dos atos processuais.
-
-Essa camada normativa não se manifesta como texto legal nem como decisão judicial, mas produz efeitos concretos sobre o exercício da jurisdição, a atividade cartorária e a eficiência do sistema de justiça.
-
-O problema científico enfrentado consiste em compreender como essas normatividades emergem, como operam e como podem ser diagnosticadas, validadas e governadas, sem romper com as garantias processuais e o fechamento operativo do Direito.",
+        "A dogmática jurídica tradicional descreve normas, decisões e procedimentos, mas apresenta baixa resolução explicativa quando confrontada com sistemas digitais complexos. No processo eletrônico, infraestruturas técnicas, fluxos automatizados e classificações algorítmicas não apenas executam comandos humanos, mas passam a organizar o próprio funcionamento institucional, modulando tempo, prioridade, visibilidade e controle dos atos processuais. 
+Essa camada normativa não se manifesta como texto legal nem como decisão judicial, mas produz efeitos concretos sobre o exercício da jurisdição, a atividade cartorária e a eficiência do sistema de justiça. O problema científico enfrentado consiste em compreender como essas normatividades emergem, como operam e como podem ser diagnosticadas, validadas e governadas, sem romper com as garantias processuais e o fechamento operativo do Direito.",
       cards: [
         {
           title: "Dogmática Tradicional",
