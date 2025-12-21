@@ -24,3 +24,7 @@ Site institucional (Next.js + Tailwind) com versão PT/EN.
 
 ## Foto
 - A foto do fundador está em `public/jefferson.jpg`.
+
+<!-- force vercel redeploy -->
+
+Force redeploy after fixing page.tsx
