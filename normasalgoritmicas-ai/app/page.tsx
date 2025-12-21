@@ -638,21 +638,21 @@ export default function Page() {
             <div className="text-sm text-slate">{t.footer}</div>
             <div className="flex gap-2">
               <button
-                onClick={() => setLang("pt")}
-                className={cx(
-                  "px-3 py-1.5 rounded-xl text-sm border transition",
-                  lang === "pt"
-                    ? "bg-accent text-white border-accent"
-                    : "bg-white text-slate border-black/10 hover:text-ink"
-                )}
-              >
-                PT
-              </button>
-              <button
                 onClick={() => setLang("en")}
                 className={cx(
                   "px-3 py-1.5 rounded-xl text-sm border transition",
                   lang === "en"
+                    ? "bg-accent text-white border-accent"
+                    : "bg-white text-slate border-black/10 hover:text-ink"
+                )}
+              >
+                EN
+              </button>
+              <button
+                onClick={() => setLang("pt")}
+                className={cx(
+                  "px-3 py-1.5 rounded-xl text-sm border transition",
+                  lang === "pt"
                     ? "bg-accent text-white border-accent"
                     : "bg-white text-slate border-black/10 hover:text-ink"
                 )}
