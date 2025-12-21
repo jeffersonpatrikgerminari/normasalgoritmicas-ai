@@ -33,22 +33,7 @@ const content = {
       title: "O problema científico",
       text:
         `
-A dogmática jurídica tradicional descreve normas, decisões e procedimentos a
-partir do texto legal e do ato jurisdicional. No entanto, essa abordagem possui
-baixa capacidade explicativa quando confrontada com sistemas digitais
-complexos.
-
-No processo eletrônico, infraestruturas técnicas, fluxos automatizados e
-classificações algorítmicas deixam de ser meros instrumentos auxiliares e passam
-a organizar o funcionamento institucional: modulam tempo, prioridade,
-visibilidade e circulação dos atos processuais.
-
-Essa camada normativa não se apresenta como lei nem como decisão judicial, mas
-produz efeitos concretos sobre a jurisdição, a atividade cartorária e a
-governança do sistema de justiça. O problema científico consiste em compreender
-como essas normatividades emergem, operam e podem ser diagnosticadas e
-governadas, sem ruptura com as garantias processuais nem com o fechamento
-operativo do Direito.
+Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfrenta um paradoxo crítico: a digitalização não eliminou a morosidade, apenas a transferiu para o ambiente digital. Hoje, os sistemas operam majoritariamente como gestores de documentos, sem uma compreensão inteligente do conteúdo jurídico. Os sistemas operacionais atuais não enfrentam problemas centrais que estão relacionados com: 1) A Linguagem Natural: os textos jurídicos são repletos de ambiguidades, contradições e nuances importantes que não são percebidas pelos sistemas atuais; 2) A Automação Cartorária: A infraestrutura tecnológica precisa de sinais claros para agir, sem o qual os sistemas ficam totalmente dependentes dos próprios serventuários que consomem grande parte do seu tempo para realização de tarefas repetitivas. Essa desconexão gera ruído no sistema judiciário: tarefas manuais repetitivas, erros de triagem e uma camada de burocracia digital que deve ser repelida do Sistema Judicial. No processo eletrônico, infraestruturas técnicas, fluxos automatizados e classificações algorítmicas deixam de ser meros instrumentos auxiliares e passam a organizar o funcionamento institucional: modulam tempo, prioridade, visibilidade e aprimoram a coordenação dos atos processuais, gerando maior domínio cognitivo judicial. Essa camada normativa não se apresenta como lei nem como decisão judicial, mas produz efeitos concretos sobre a jurisdição, a atividade cartorária e a governança do sistema de justiça. O problema científico consiste em compreender como essas normatividades emergem, operam e podem ser diagnosticadas e governadas, sem ruptura com as garantias processuais nem com o fechamento operativo do Direito. Por meio das normas algorítmicas de segundo grau é apresentada uma nova proposta de solução efetiva para problemas corriqueiros da atividade-meio, a alcançar um novo nível de eficiência e desenvolvimento da Justiça eletrônica.
 `,
       cards: [
         {
@@ -77,7 +62,7 @@ operativo do Direito.
     secondOrder: {
       title: "Normas Algorítmicas de Segundo Grau",
       text:
-        "Não decidem o mérito — estruturam as condições da decisão. Atuam no plano metaoperacional: organizam fluxos e subfluxos, definem prioridades, classificam e encaminham demandas e modulam tempo e atenção institucional.",
+        "As Normas Algorítmicas de Segundo Grau surgem como a ponte definitiva entre a decisão judicial e a automação. Ao utilizar modelagem cognitiva baseada em Aprendizado de Máquina, o modelo proposto diagnostica os sinais linguísticos das decisões (ex: ordens de citação, emenda ou indeferimento); traduz esses sinais em comandos operacionais automáticos para o sistema operacional e garante o fechamento operativo do Direito, mantendo a autonomia do juiz enquanto automatiza a atividade-meio. As normas algorítmicas representam um avanço ao sistema de Justiça, atribuindo ao algoritmo a função de interpretar os textos jurídicos e reduzir nulidades processuais, garantindo integridade e eficiência processual, superando a visão ultrapassada de sistemas operacionais gestores de documentos.",
       flow: [
         "Arquitetura do Sistema",
         "Fluxos e Subfluxos",
@@ -174,21 +159,7 @@ operativo do Direito.
       title: "The scientific problem",
       text:
         `
-Traditional legal dogmatics describes norms, decisions, and procedures primarily
-through statutory text and judicial acts. However, this approach shows limited
-explanatory capacity when confronted with complex digital systems.
-
-In electronic procedure, technical infrastructures, automated workflows, and
-algorithmic classifications cease to function merely as auxiliary tools and
-instead begin to organize institutional operation itself: they modulate time,
-priority, visibility, and the circulation of procedural acts.
-
-This normative layer does not appear as statutory law or judicial decision, yet
-it produces concrete effects on jurisdiction, court administration, and the
-governance of the justice system. The scientific problem addressed here is to
-understand how these normativities emerge, how they operate, and how they may be
-diagnosed and governed, without disrupting procedural guarantees or the
-operative closure of law.
+Despite the advancements in electronic judicial proceedings, the Judiciary faces a critical paradox: digitalization has not eliminated delays; it has merely transferred them to the digital environment. Today, systems operate predominantly as document repositories, lacking an intelligent comprehension of legal content. Current operating systems fail to address core issues related to: 1) Natural Language: legal texts are replete with ambiguities, contradictions, and critical nuances that remain unperceived by current systems; 2) Clerical Automation: the technological infrastructure requires clear signals to act, without which systems remain entirely dependent on court staff, who consume most of their time performing repetitive tasks. This disconnect generates noise within the judicial system: repetitive manual tasks, triage errors, and a layer of digital bureaucracy that must be purged from the Judicial System. In the electronic process, technical infrastructures, automated workflows, and algorithmic classifications cease to be mere auxiliary instruments and begin to organize institutional operations: they modulate time, priority, and visibility, while enhancing the coordination of procedural acts, leading to greater judicial cognitive domain. This normative layer does not present itself as statutory law or a judicial decision, yet it produces concrete effects on adjudication, clerical activities, and the governance of the justice system. The scientific problem lies in understanding how these normativities emerge and operate, and how they can be diagnosed and governed without rupturing procedural guarantees or the operative closure of the Law. Through second-order algorithmic norms, a new proposal for an effective solution to routine back-office challenges is presented, reaching a new level of efficiency and development for electronic Justice (e-Justice).
 `,
       cards: [
         {
@@ -217,7 +188,7 @@ operative closure of law.
     secondOrder: {
       title: "Second-Order Algorithmic Norms",
       text:
-        "They do not decide the merits — they structure the conditions of decision. They operate meta-operationally: organizing flows, setting priorities, classifying and routing demands, and modulating institutional time and attention.",
+        "Second-Order Algorithmic Norms emerge as the definitive bridge between judicial decisions and automation. By utilizing cognitive modeling based on Machine Learning, the proposed model diagnoses the linguistic signals within decisions (e.g., service of process orders, amendments, or dismissals); it translates these signals into automated operational commands for the operating system and ensures the operative closure of the Law, maintaining judicial autonomy while automating back-office activities. Algorithmic norms represent an advancement for the Justice system by assigning the algorithm the function of interpreting legal texts and reducing procedural nullities, thereby guaranteeing procedural integrity and efficiency, and overcoming the outdated vision of operating systems as mere document managers.",
       flow: [
         "System Architecture",
         "Flows & Subflows",
