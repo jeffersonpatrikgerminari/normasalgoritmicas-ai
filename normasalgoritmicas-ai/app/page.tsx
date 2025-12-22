@@ -588,36 +588,37 @@ export default function Page() {
             </div>
 
             <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert(lang === "pt" ? "Formulário de demonstração." : "Demo form.");
-              }}
-              className="rounded-2xl bg-white border border-black/5 shadow-sm p-6"
-            >
+  action="https://formspree.io/f/xykgdydb"
+  method="POST"
+  className="rounded-2xl bg-white border border-black/5 shadow-sm p-6"
+>
               <label className="block text-sm font-semibold text-ink">
                 {t.contact.form.name}
               </label>
               <input
-                className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-                placeholder={lang === "pt" ? "Seu nome" : "Your name"}
-              />
+  name="name"
+  className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+  placeholder={lang === "pt" ? "Seu nome" : "Your name"}
+/>
 
               <label className="mt-4 block text-sm font-semibold text-ink">
                 {t.contact.form.email}
               </label>
               <input
-                type="email"
-                className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-                placeholder={lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"}
-              />
+  type="email"
+  name="email"
+  className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+  placeholder={lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"}
+/>
 
               <label className="mt-4 block text-sm font-semibold text-ink">
                 {t.contact.form.message}
               </label>
               <textarea
-                className="mt-2 w-full min-h-[120px] rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-                placeholder={lang === "pt" ? "Escreva aqui..." : "Write here..."}
-              />
+  name="message"
+  className="mt-2 w-full min-h-[120px] rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+  placeholder={lang === "pt" ? "Escreva aqui..." : "Write here..."}
+/>
 
               <button
                 type="submit"
