@@ -1,14 +1,17 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Normas Algorítmicas — normasalgoritmicas.ai",
+  title: "Algorithmic Norms – algorithmicnorms.net",
   description:
-    "Uma teoria jurídica sobre a normatividade algorítmica na justiça digital e no processo eletrônico.",
+    "A theoretical framework on algorithmic normativity in digital justice and electronic procedure.",
+  verification: {
+    google: "qe217JToxXWB15mUe"
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
