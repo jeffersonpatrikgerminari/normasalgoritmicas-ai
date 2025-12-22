@@ -127,7 +127,7 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
         message: "Mensagem",
         send: "Enviar",
         hint:
-          "Para envio real, conecte este formulário ao Formspree, Basin ou outro serviço (sem backend).",
+          "Clique no botão enviar. Em breve entraremos em contato.",
       },
     },
     footer:
@@ -237,7 +237,7 @@ Despite the advancements in electronic judicial proceedings, the Judiciary faces
         message: "Message",
         send: "Send",
         hint:
-          "For real delivery, connect this form to Formspree/Basin (no backend needed).",
+          "Click the submit button. We will contact you soon.",
       },
     },
     footer:
