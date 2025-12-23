@@ -101,6 +101,22 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
         },
       ],
     },
+
+    // ✅ NOVO (apenas dados): textos da aba demonstrativa
+    aiDemo: {
+      title: "Demonstração Conceitual — Classificação Algorítmica",
+      lead:
+        "Esta seção ilustra, de forma conceitual, o funcionamento do modelo de classificação multirrótulo desenvolvido na pesquisa. O objetivo não é oferecer uma ferramenta operacional ao público, mas demonstrar como normas algorítmicas emergem a partir da organização técnica dos fluxos processuais.",
+      bullets: [
+        "Entradas textuais são processadas por vetorização e modelos supervisionados.",
+        "Um único ato processual pode gerar múltiplos rótulos simultâneos.",
+        "Esses rótulos condicionam fluxos, prioridades e encaminhamentos institucionais.",
+        "A classificação não decide o mérito, mas estrutura as condições da decisão.",
+      ],
+      note:
+        "A demonstração completa, com validação empírica e métricas, encontra-se detalhada na tese de doutorado.",
+    },
+
     founder: {
       title: "Fundador",
       name: "Jefferson Germinari, PhD",
@@ -126,8 +142,7 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
         email: "E-mail",
         message: "Mensagem",
         send: "Enviar",
-        hint:
-          "Clique no botão enviar. Em breve entraremos em contato.",
+        hint: "Clique no botão enviar. Em breve entraremos em contato.",
       },
     },
     footer:
@@ -135,6 +150,7 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
       new Date().getFullYear() +
       " Normas Algorítmicas · A theoretical framework on algorithmic normativity",
   },
+
   en: {
     nav: {
       concept: "Concept",
@@ -208,12 +224,40 @@ Despite the advancements in electronic judicial proceedings, the Judiciary faces
     applications: {
       title: "Applications",
       items: [
-        { title: "Electronic Procedure", text: "Flow/subflow design with traceability and accountability." },
-        { title: "Judicial Governance", text: "Criteria, controls and institutional oversight for automation." },
-        { title: "Responsible AI", text: "Auditability, transparency, explainability and normative limits." },
-        { title: "Institutional Efficiency", text: "Management improvements aligned with procedural guarantees." },
+        {
+          title: "Electronic Procedure",
+          text: "Flow/subflow design with traceability and accountability.",
+        },
+        {
+          title: "Judicial Governance",
+          text: "Criteria, controls and institutional oversight for automation.",
+        },
+        {
+          title: "Responsible AI",
+          text: "Auditability, transparency, explainability and normative limits.",
+        },
+        {
+          title: "Institutional Efficiency",
+          text: "Management improvements aligned with procedural guarantees.",
+        },
       ],
     },
+
+    // ✅ NOVO (apenas dados): textos da aba demonstrativa
+    aiDemo: {
+      title: "Conceptual Demonstration — Algorithmic Classification",
+      lead:
+        "This section provides a conceptual illustration of the multi-label classification model developed in the research. Its purpose is not to offer an operational tool, but to demonstrate how algorithmic norms emerge from the technical organisation of procedural flows.",
+      bullets: [
+        "Textual inputs are processed through vectorisation and supervised models.",
+        "A single procedural act may generate multiple labels simultaneously.",
+        "These labels condition flows, priorities and institutional routing.",
+        "Classification does not decide merits, but structures decision conditions.",
+      ],
+      note:
+        "The complete demonstration, including empirical validation and metrics, is detailed in the doctoral thesis.",
+    },
+
     founder: {
       title: "Founder",
       name: "Jefferson Germinari, PhD",
@@ -223,7 +267,10 @@ Despite the advancements in electronic judicial proceedings, the Judiciary faces
       links: [
         { label: "Lattes", href: "http://lattes.cnpq.br/5174274917298662" },
         { label: "ORCID", href: "https://orcid.org/0000-0002-3741-5651" },
-        { label: "LinkedIn", href: "https://www.linkedin.com/in/jefferson-patrik-germinari-96508765" },
+        {
+          label: "LinkedIn",
+          href: "https://www.linkedin.com/in/jefferson-patrik-germinari-96508765",
+        },
         { label: "Instagram", href: "https://www.instagram.com/jefferson.germinari/" },
       ],
     },
@@ -236,8 +283,7 @@ Despite the advancements in electronic judicial proceedings, the Judiciary faces
         email: "Email",
         message: "Message",
         send: "Send",
-        hint:
-          "Click the submit button. We will contact you soon.",
+        hint: "Click the submit button. We will contact you soon.",
       },
     },
     footer:
@@ -318,12 +364,24 @@ export default function Page() {
           </a>
 
           <nav className="hidden md:flex items-center gap-6 text-sm text-slate">
-            <a className="hover:text-ink" href="#concept">{t.nav.concept}</a>
-            <a className="hover:text-ink" href="#theory">{t.nav.theory}</a>
-            <a className="hover:text-ink" href="#publications">{t.nav.publications}</a>
-            <a className="hover:text-ink" href="#applications">{t.nav.applications}</a>
-            <a className="hover:text-ink" href="#founder">{t.nav.founder}</a>
-            <a className="hover:text-ink" href="#contact">{t.nav.contact}</a>
+            <a className="hover:text-ink" href="#concept">
+              {t.nav.concept}
+            </a>
+            <a className="hover:text-ink" href="#theory">
+              {t.nav.theory}
+            </a>
+            <a className="hover:text-ink" href="#publications">
+              {t.nav.publications}
+            </a>
+            <a className="hover:text-ink" href="#applications">
+              {t.nav.applications}
+            </a>
+            <a className="hover:text-ink" href="#founder">
+              {t.nav.founder}
+            </a>
+            <a className="hover:text-ink" href="#contact">
+              {t.nav.contact}
+            </a>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -412,16 +470,33 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
               <SectionTitle>{t.problem.title}</SectionTitle>
-              <p className="mt-4 text-base leading-7 text-slate">{t.problem.text}</p>
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.problem.text}
+              </p>
             </div>
             <div className="rounded-2xl bg-white border border-black/5 shadow-sm p-6">
               <div className="text-sm font-semibold text-ink">
                 {lang === "pt" ? "Síntese" : "Summary"}
               </div>
               <ul className="mt-3 space-y-2 text-sm text-slate">
-                <li>• {lang === "pt" ? "O técnico organiza o institucional." : "The technical structures the institutional."}</li>
-                <li>• {lang === "pt" ? "Fluxos definem condições da decisão." : "Flows define decision conditions."}</li>
-                <li>• {lang === "pt" ? "Governança é requisito de legitimidade." : "Governance is a legitimacy requirement."}</li>
+                <li>
+                  •{" "}
+                  {lang === "pt"
+                    ? "O técnico organiza o institucional."
+                    : "The technical structures the institutional."}
+                </li>
+                <li>
+                  •{" "}
+                  {lang === "pt"
+                    ? "Fluxos definem condições da decisão."
+                    : "Flows define decision conditions."}
+                </li>
+                <li>
+                  •{" "}
+                  {lang === "pt"
+                    ? "Governança é requisito de legitimidade."
+                    : "Governance is a legitimacy requirement."}
+                </li>
               </ul>
             </div>
           </div>
@@ -431,7 +506,9 @@ export default function Page() {
         <section id="concept" className="mx-auto max-w-6xl px-4 py-14">
           <div className="max-w-3xl">
             <SectionTitle>{t.concept.title}</SectionTitle>
-            <p className="mt-4 text-base leading-7 text-slate">{t.concept.text}</p>
+            <p className="mt-4 text-base leading-7 text-slate">
+              {t.concept.text}
+            </p>
           </div>
         </section>
 
@@ -440,7 +517,9 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <SectionTitle>{t.secondOrder.title}</SectionTitle>
-              <p className="mt-4 text-base leading-7 text-slate">{t.secondOrder.text}</p>
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.secondOrder.text}
+              </p>
             </div>
 
             <div className="rounded-2xl bg-white border border-black/5 shadow-sm p-6">
@@ -474,7 +553,9 @@ export default function Page() {
                 </span>
               ))}
             </div>
-            <p className="mt-5 text-base leading-7 text-slate">{t.foundations.text}</p>
+            <p className="mt-5 text-base leading-7 text-slate">
+              {t.foundations.text}
+            </p>
           </div>
         </section>
 
@@ -511,15 +592,19 @@ export default function Page() {
 
             <Card
               title={lang === "pt" ? "Artigos derivados" : "Derived papers"}
-              text={lang === "pt"
-                ? "Cards por artigo: título, revista/ano, PDF/DOI (adicione conforme publicar)."
-                : "Per-paper cards: title, venue/year, PDF/DOI (add as you publish)."}
+              text={
+                lang === "pt"
+                  ? "Cards por artigo: título, revista/ano, PDF/DOI (adicione conforme publicar)."
+                  : "Per-paper cards: title, venue/year, PDF/DOI (add as you publish)."
+              }
             />
             <Card
               title={lang === "pt" ? "Working papers" : "Working papers"}
-              text={lang === "pt"
-                ? "Textos em construção, versões e agenda de pesquisa."
-                : "Work-in-progress drafts, versions and research agenda."}
+              text={
+                lang === "pt"
+                  ? "Textos em construção, versões e agenda de pesquisa."
+                  : "Work-in-progress drafts, versions and research agenda."
+              }
             />
           </div>
         </section>
@@ -531,6 +616,25 @@ export default function Page() {
             {t.applications.items.map((it) => (
               <Card key={it.title} title={it.title} text={it.text} />
             ))}
+          </div>
+        </section>
+
+        {/* ✅ NOVO: AI Demonstration (somente UI, não altera funções existentes) */}
+        <section id="ai" className="mx-auto max-w-6xl px-4 py-14">
+          <div className="max-w-3xl">
+            <SectionTitle>{t.aiDemo.title}</SectionTitle>
+
+            <p className="mt-4 text-base leading-7 text-slate">{t.aiDemo.lead}</p>
+
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-6">
+              <ul className="space-y-2 text-sm text-slate">
+                {t.aiDemo.bullets.map((b) => (
+                  <li key={b}>• {b}</li>
+                ))}
+              </ul>
+            </div>
+
+            <p className="mt-6 text-sm text-slate">{t.aiDemo.note}</p>
           </div>
         </section>
 
@@ -551,12 +655,17 @@ export default function Page() {
 
             <div className="md:col-span-2">
               <SectionTitle>{t.founder.title}</SectionTitle>
-              <div className="mt-3 text-lg font-semibold text-ink">{t.founder.name}</div>
+              <div className="mt-3 text-lg font-semibold text-ink">
+                {t.founder.name}
+              </div>
               <div className="mt-1 text-sm text-slate">{t.founder.line1}</div>
               <div className="text-sm text-slate">{t.founder.line2}</div>
               <div className="mt-4 inline-flex flex-wrap gap-2 text-sm text-ink">
                 {t.founder.tags.split("·").map((tag) => (
-                  <span key={tag} className="rounded-full border border-black/10 bg-surface px-3 py-1">
+                  <span
+                    key={tag}
+                    className="rounded-full border border-black/10 bg-surface px-3 py-1"
+                  >
                     {tag.trim()}
                   </span>
                 ))}
@@ -584,41 +693,43 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <SectionTitle>{t.contact.title}</SectionTitle>
-              <p className="mt-4 text-base leading-7 text-slate">{t.contact.text}</p>
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.contact.text}
+              </p>
             </div>
 
             <form
-  action="https://formspree.io/f/xykgdydb"
-  method="POST"
-  className="rounded-2xl bg-white border border-black/5 shadow-sm p-6"
->
+              action="https://formspree.io/f/xykgdydb"
+              method="POST"
+              className="rounded-2xl bg-white border border-black/5 shadow-sm p-6"
+            >
               <label className="block text-sm font-semibold text-ink">
                 {t.contact.form.name}
               </label>
               <input
-  name="name"
-  className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-  placeholder={lang === "pt" ? "Seu nome" : "Your name"}
-/>
+                name="name"
+                className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+                placeholder={lang === "pt" ? "Seu nome" : "Your name"}
+              />
 
               <label className="mt-4 block text-sm font-semibold text-ink">
                 {t.contact.form.email}
               </label>
               <input
-  type="email"
-  name="email"
-  className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-  placeholder={lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"}
-/>
+                type="email"
+                name="email"
+                className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+                placeholder={lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"}
+              />
 
               <label className="mt-4 block text-sm font-semibold text-ink">
                 {t.contact.form.message}
               </label>
               <textarea
-  name="message"
-  className="mt-2 w-full min-h-[120px] rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-  placeholder={lang === "pt" ? "Escreva aqui..." : "Write here..."}
-/>
+                name="message"
+                className="mt-2 w-full min-h-[120px] rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
+                placeholder={lang === "pt" ? "Escreva aqui..." : "Write here..."}
+              />
 
               <button
                 type="submit"
@@ -668,4 +779,3 @@ export default function Page() {
     </div>
   );
 }
-
