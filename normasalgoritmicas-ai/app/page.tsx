@@ -101,6 +101,55 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
         },
       ],
     },
+
+    {/* AI Demonstration */}
+<section id="ai" className="mx-auto max-w-6xl px-4 py-14">
+  <div className="max-w-3xl">
+    <SectionTitle>
+      {lang === "pt"
+        ? "Demonstração Conceitual — Classificação Algorítmica"
+        : "Conceptual Demonstration — Algorithmic Classification"}
+    </SectionTitle>
+
+    <p className="mt-4 text-base leading-7 text-slate">
+      {lang === "pt"
+        ? "Esta seção ilustra, de forma conceitual, o funcionamento do modelo de classificação multirrótulo desenvolvido na pesquisa. O objetivo não é oferecer uma ferramenta operacional ao público, mas demonstrar como normas algorítmicas emergem a partir da organização técnica dos fluxos processuais."
+        : "This section provides a conceptual illustration of the multi-label classification model developed in the research. Its purpose is not to offer an operational tool, but to demonstrate how algorithmic norms emerge from the technical organisation of procedural flows."}
+    </p>
+
+    <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-6">
+      <ul className="space-y-2 text-sm text-slate">
+        <li>
+          • {lang === "pt"
+            ? "Entradas textuais são processadas por vetorização e modelos supervisionados."
+            : "Textual inputs are processed through vectorisation and supervised models."}
+        </li>
+        <li>
+          • {lang === "pt"
+            ? "Um único ato processual pode gerar múltiplos rótulos simultâneos."
+            : "A single procedural act may generate multiple labels simultaneously."}
+        </li>
+        <li>
+          • {lang === "pt"
+            ? "Esses rótulos condicionam fluxos, prioridades e encaminhamentos institucionais."
+            : "These labels condition flows, priorities and institutional routing."}
+        </li>
+        <li>
+          • {lang === "pt"
+            ? "A classificação não decide o mérito, mas estrutura as condições da decisão."
+            : "Classification does not decide merits, but structures decision conditions."}
+        </li>
+      </ul>
+    </div>
+
+    <p className="mt-6 text-sm text-slate">
+      {lang === "pt"
+        ? "A demonstração completa, com validação empírica e métricas, encontra-se detalhada na tese de doutorado."
+        : "The complete demonstration, including empirical validation and metrics, is detailed in the doctoral thesis."}
+    </p>
+  </div>
+</section>
+
     founder: {
       title: "Fundador",
       name: "Jefferson Germinari, PhD",
