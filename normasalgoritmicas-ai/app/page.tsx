@@ -16,6 +16,8 @@ const content = {
       theory: "Teoria",
       publications: "Publicações",
       applications: "Aplicações",
+      // ✅ NOVO (apenas label do menu; se não quiser no menu, eu removo do JSX do nav)
+      ai: "Demonstração",
       founder: "Fundador",
       contact: "Contato",
     },
@@ -102,19 +104,67 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
       ],
     },
 
-    // ✅ NOVO (apenas dados): textos da aba demonstrativa
+    // ✅ NOVO: a seção exatamente como você escreveu
     aiDemo: {
-      title: "Demonstração Conceitual — Classificação Algorítmica",
-      lead:
-        "Esta seção ilustra, de forma conceitual, o funcionamento do modelo de classificação multirrótulo desenvolvido na pesquisa. O objetivo não é oferecer uma ferramenta operacional ao público, mas demonstrar como normas algorítmicas emergem a partir da organização técnica dos fluxos processuais.",
-      bullets: [
-        "Entradas textuais são processadas por vetorização e modelos supervisionados.",
-        "Um único ato processual pode gerar múltiplos rótulos simultâneos.",
-        "Esses rótulos condicionam fluxos, prioridades e encaminhamentos institucionais.",
-        "A classificação não decide o mérito, mas estrutura as condições da decisão.",
+      title: "Exemplo Ilustrativo: Normas Algorítmicas em Operação",
+      subtitle: "Do conceito teórico à experimentação empírica",
+      intro1:
+        "Esta seção apresenta um exemplo ilustrativo do funcionamento das Normas Algorítmicas, conforme desenvolvidas teoricamente neste projeto e operacionalizadas no experimento empírico que fundamenta a pesquisa.",
+      intro2:
+        "O objetivo não é demonstrar uma decisão automatizada, nem substituir a atividade jurisdicional, mas tornar visível como sistemas algorítmicos atuam em um plano metaoperacional, estruturando fluxos, classificações e prioridades no processo eletrônico.",
+      contextTitle: "Contexto do exemplo",
+      context1:
+        "No ambiente do processo judicial eletrônico, grande parte das decisões institucionais não ocorre no mérito, mas antes dele:\nna triagem, no enquadramento procedimental, na organização dos atos e na circulação da informação.",
+      context2:
+        "Essas operações são mediadas por infraestruturas técnicas, regras sistêmicas e modelos algorítmicos que:",
+      contextBullets: [
+        "classificam atos processuais,",
+        "identificam eventos relevantes,",
+        "encaminham o processo a fluxos e subfluxos específicos,",
+        "modulam tempo, visibilidade e prioridade.",
       ],
-      note:
-        "A demonstração completa, com validação empírica e métricas, encontra-se detalhada na tese de doutorado.",
+      context3: "É nesse nível que emergem as Normas Algorítmicas.",
+      inputTitle: "Exemplo ilustrativo (entrada)",
+      inputLead: "Considere um trecho hipotético de movimentação processual:",
+      inputQuote:
+        "“Recebida a petição inicial. Intime-se a parte autora para recolhimento das custas iniciais, sob pena de indeferimento.”",
+      inputAfter:
+        "Este texto não decide o mérito, mas desencadeia uma série de operações institucionais.",
+      orgTitle: "Organização algorítmica (ilustrativa)",
+      orgLead:
+        "A partir desse conteúdo, um modelo de classificação multirrótulo pode identificar, por exemplo:",
+      orgBullets: [
+        "Ato de recebimento da inicial",
+        "Exigência de regularização processual",
+        "Incidência de prazo",
+        "Potencial consequência de indeferimento",
+      ],
+      orgAfter:
+        "Esses rótulos não substituem a interpretação jurídica, mas estruturam o fluxo do processo, influenciando:",
+      inflBullets: [
+        "o encaminhamento interno,",
+        "a visibilidade do feito,",
+        "a ordem de tratamento,",
+        "o controle de prazos.",
+      ],
+      demoTitle: "O que este exemplo demonstra",
+      demoBullets: [
+        "O algoritmo não decide.",
+        "O algoritmo não interpreta normas jurídicas no sentido dogmático.",
+        "O algoritmo estrutura as condições da decisão, atuando como uma camada normativa implícita.",
+      ],
+      demoAfter:
+        "Trata-se de uma normatividade incorporada à infraestrutura técnica, que opera de forma estável, recorrente e institucionalmente relevante, ainda que não positivada.",
+      theoryTitle: "Conexão com a teoria",
+      theory1:
+        "Este exemplo ilustra o conceito de Normas Algorítmicas de Segundo Grau:",
+      theory2:
+        "normas que não incidem diretamente sobre o mérito da decisão,\nmas sobre o ambiente operacional em que as decisões se tornam possíveis.",
+      theory3:
+        "A proposta teórica busca justamente diagnosticar, explicitar e tornar governáveis essas normatividades, preservando as garantias processuais e a autonomia do Direito.",
+      methodTitle: "Observação metodológica",
+      methodText:
+        "O exemplo acima é ilustrativo, com fins explicativos.\nO experimento empírico completo, seus dados, métricas e validações encontram-se detalhados nas publicações associadas a este projeto.",
     },
 
     founder: {
@@ -157,6 +207,8 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
       theory: "Theory",
       publications: "Publications",
       applications: "Applications",
+      // ✅ NOVO
+      ai: "Demonstration",
       founder: "Founder",
       contact: "Contact",
     },
@@ -243,19 +295,67 @@ Despite the advancements in electronic judicial proceedings, the Judiciary faces
       ],
     },
 
-    // ✅ NOVO (apenas dados): textos da aba demonstrativa
+    // ✅ tradução fiel (pode ajustar depois; o PT é o principal)
     aiDemo: {
-      title: "Conceptual Demonstration — Algorithmic Classification",
-      lead:
-        "This section provides a conceptual illustration of the multi-label classification model developed in the research. Its purpose is not to offer an operational tool, but to demonstrate how algorithmic norms emerge from the technical organisation of procedural flows.",
-      bullets: [
-        "Textual inputs are processed through vectorisation and supervised models.",
-        "A single procedural act may generate multiple labels simultaneously.",
-        "These labels condition flows, priorities and institutional routing.",
-        "Classification does not decide merits, but structures decision conditions.",
+      title: "Illustrative Example: Algorithmic Norms in Operation",
+      subtitle: "From theoretical concept to empirical experimentation",
+      intro1:
+        "This section presents an illustrative example of how Algorithmic Norms operate, as developed theoretically in this project and operationalised in the empirical experiment underpinning the research.",
+      intro2:
+        "The purpose is not to demonstrate automated decision-making nor to replace judicial activity, but to make visible how algorithmic systems act at a meta-operational level, structuring flows, classifications and priorities within electronic procedure.",
+      contextTitle: "Context of the example",
+      context1:
+        "In the electronic judicial process environment, a large portion of institutional decisions does not occur on the merits, but before it:\nin triage, procedural framing, the organisation of acts, and the circulation of information.",
+      context2:
+        "These operations are mediated by technical infrastructures, systemic rules and algorithmic models that:",
+      contextBullets: [
+        "classify procedural acts,",
+        "identify relevant events,",
+        "route the case to specific flows and subflows,",
+        "modulate time, visibility and priority.",
       ],
-      note:
-        "The complete demonstration, including empirical validation and metrics, is detailed in the doctoral thesis.",
+      context3: "It is at this level that Algorithmic Norms emerge.",
+      inputTitle: "Illustrative example (input)",
+      inputLead: "Consider a hypothetical procedural entry:",
+      inputQuote:
+        "“Initial petition received. Notify the claimant to pay the initial court fees, under penalty of dismissal.”",
+      inputAfter:
+        "This text does not decide the merits, but triggers a series of institutional operations.",
+      orgTitle: "Algorithmic organisation (illustrative)",
+      orgLead:
+        "From this content, a multi-label classification model may identify, for instance:",
+      orgBullets: [
+        "Act of receiving the initial petition",
+        "Requirement of procedural regularisation",
+        "Incidence of a deadline",
+        "Potential consequence of dismissal",
+      ],
+      orgAfter:
+        "These labels do not replace legal interpretation, but structure the procedural flow, influencing:",
+      inflBullets: [
+        "internal routing,",
+        "case visibility,",
+        "order of handling,",
+        "deadline control.",
+      ],
+      demoTitle: "What this example demonstrates",
+      demoBullets: [
+        "The algorithm does not decide.",
+        "The algorithm does not interpret legal norms in the dogmatic sense.",
+        "The algorithm structures the conditions of the decision, acting as an implicit normative layer.",
+      ],
+      demoAfter:
+        "It is a normativity embedded in technical infrastructure, operating in a stable, recurrent, and institutionally relevant manner, even though not codified.",
+      theoryTitle: "Connection to the theory",
+      theory1:
+        "This example illustrates the concept of Second-Order Algorithmic Norms:",
+      theory2:
+        "norms that do not directly affect the merits,\nbut the operational environment in which decisions become possible.",
+      theory3:
+        "The theoretical proposal aims precisely to diagnose, make explicit, and render these normativities governable, while preserving procedural guarantees and the autonomy of Law.",
+      methodTitle: "Methodological note",
+      methodText:
+        "The example above is illustrative, for explanatory purposes.\nThe full empirical experiment, its data, metrics and validations are detailed in the publications associated with this project.",
     },
 
     founder: {
@@ -346,6 +446,18 @@ export default function Page() {
   const t = useMemo(() => content[lang], [lang]);
   const thesisUrl = "https://tede.ufsc.br/teses/PDPC1861-T.pdf";
 
+  // helper interno (não altera “funções do site”; só ajuda a quebrar linhas \n em <br/>)
+  const RenderWithBreaks = ({ text }: { text: string }) => (
+    <>
+      {text.split("\n").map((line, i) => (
+        <React.Fragment key={i}>
+          {line}
+          {i < text.split("\n").length - 1 ? <br /> : null}
+        </React.Fragment>
+      ))}
+    </>
+  );
+
   return (
     <div className="min-h-screen">
       {/* Header */}
@@ -376,6 +488,12 @@ export default function Page() {
             <a className="hover:text-ink" href="#applications">
               {t.nav.applications}
             </a>
+
+            {/* ✅ NOVO (apenas link do menu) */}
+            <a className="hover:text-ink" href="#ai">
+              {t.nav.ai}
+            </a>
+
             <a className="hover:text-ink" href="#founder">
               {t.nav.founder}
             </a>
@@ -619,22 +737,135 @@ export default function Page() {
           </div>
         </section>
 
-        {/* ✅ NOVO: AI Demonstration (somente UI, não altera funções existentes) */}
+        {/* ✅ NOVO: Aba/Seção demonstrativa do jeito que você pediu */}
         <section id="ai" className="mx-auto max-w-6xl px-4 py-14">
-          <div className="max-w-3xl">
-            <SectionTitle>{t.aiDemo.title}</SectionTitle>
+          <div className="max-w-4xl">
+            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-ink">
+              {t.aiDemo.title}
+            </h2>
+            <p className="mt-2 text-sm md:text-base text-slate">
+              {t.aiDemo.subtitle}
+            </p>
 
-            <p className="mt-4 text-base leading-7 text-slate">{t.aiDemo.lead}</p>
+            <p className="mt-6 text-base leading-7 text-slate">
+              {t.aiDemo.intro1}
+            </p>
+            <p className="mt-4 text-base leading-7 text-slate">
+              {t.aiDemo.intro2}
+            </p>
 
-            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-6">
-              <ul className="space-y-2 text-sm text-slate">
-                {t.aiDemo.bullets.map((b) => (
+            <div className="mt-10 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.contextTitle}
+              </div>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                <RenderWithBreaks text={t.aiDemo.context1} />
+              </p>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.context2}
+              </p>
+
+              <ul className="mt-4 space-y-2 text-sm text-slate">
+                {t.aiDemo.contextBullets.map((b) => (
+                  <li key={b}>• {b}</li>
+                ))}
+              </ul>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.context3}
+              </p>
+            </div>
+
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.inputTitle}
+              </div>
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.inputLead}
+              </p>
+
+              <div className="mt-5 rounded-2xl border border-black/10 bg-surface px-6 py-5 text-ink">
+                <div className="text-sm leading-7">
+                  {t.aiDemo.inputQuote}
+                </div>
+              </div>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.inputAfter}
+              </p>
+            </div>
+
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.orgTitle}
+              </div>
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.orgLead}
+              </p>
+
+              <ul className="mt-4 space-y-2 text-sm text-slate">
+                {t.aiDemo.orgBullets.map((b) => (
+                  <li key={b}>• {b}</li>
+                ))}
+              </ul>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.orgAfter}
+              </p>
+
+              <ul className="mt-4 space-y-2 text-sm text-slate">
+                {t.aiDemo.inflBullets.map((b) => (
                   <li key={b}>• {b}</li>
                 ))}
               </ul>
             </div>
 
-            <p className="mt-6 text-sm text-slate">{t.aiDemo.note}</p>
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.demoTitle}
+              </div>
+
+              <ul className="mt-4 space-y-2 text-sm text-slate">
+                {t.aiDemo.demoBullets.map((b) => (
+                  <li key={b}>• {b}</li>
+                ))}
+              </ul>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.demoAfter}
+              </p>
+            </div>
+
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.theoryTitle}
+              </div>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.theory1}
+              </p>
+
+              <div className="mt-5 rounded-2xl border border-black/10 bg-surface px-6 py-5 text-ink">
+                <div className="text-sm leading-7">
+                  <RenderWithBreaks text={t.aiDemo.theory2} />
+                </div>
+              </div>
+
+              <p className="mt-4 text-base leading-7 text-slate">
+                {t.aiDemo.theory3}
+              </p>
+            </div>
+
+            <div className="mt-6 rounded-2xl bg-white border border-black/5 shadow-sm p-8">
+              <div className="text-sm font-semibold text-ink">
+                {t.aiDemo.methodTitle}
+              </div>
+              <p className="mt-4 text-base leading-7 text-slate">
+                <RenderWithBreaks text={t.aiDemo.methodText} />
+              </p>
+            </div>
           </div>
         </section>
 
@@ -719,7 +950,9 @@ export default function Page() {
                 type="email"
                 name="email"
                 className="mt-2 w-full rounded-2xl border border-black/10 bg-surface px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-accent/25"
-                placeholder={lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"}
+                placeholder={
+                  lang === "pt" ? "seuemail@exemplo.com" : "you@example.com"
+                }
               />
 
               <label className="mt-4 block text-sm font-semibold text-ink">
