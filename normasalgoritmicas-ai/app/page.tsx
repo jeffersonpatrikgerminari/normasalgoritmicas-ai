@@ -22,11 +22,11 @@ const content = {
       contact: "Contato",
     },
     hero: {
-      title: "Normas Algorítmicas",
+      title: "NORMAS ALGORÍTMICAS",
       subtitle:
-        "Normatividade, inteligência artificial e reconfiguração do processo eletrônico",
+        "Transformando a Justiça Digital com Normas Algorítmicas",
       lead:
-        "Uma teoria jurídica sobre a normatividade algorítmica na justiça digital e no processo eletrônico.",
+        "Uma teoria jurídica inovadora que integra Inteligência Artificial aos procedimentos judiciais, mantendo a autonomia judicial e aumentando a eficiência institucional a partir do aprimoramento do processo eletrônico.",
       cta1: "Leia a Teoria",
       cta2: "Contato & Parcerias",
       cta3: "Abrir tese (PDF UFSC)",
@@ -213,11 +213,11 @@ Apesar dos avanços no processo judicial eletrônico, o Sistema Judiciário enfr
       contact: "Contact",
     },
     hero: {
-      title: "Algorithmic Norms",
+      title: "ALGORITHMIC NORMS",
       subtitle:
-        "Normativity, artificial intelligence, and the reconfiguration of digital procedure",
+        "Transforming Digital Justice with Algorithmic Norms",
       lead:
-        "A legal theory of algorithmic normativity in digital justice and electronic procedure.",
+        "An innovative legal theory that integrates Artificial Intelligence into judicial procedures, maintaining judicial autonomy and increasing institutional efficiency through the improvement of the electronic process.",
       cta1: "Read the Theory",
       cta2: "Contact & Partnerships",
       cta3: "Open thesis (UFSC PDF)",
